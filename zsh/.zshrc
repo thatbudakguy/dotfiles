@@ -32,6 +32,10 @@ alias giv="gh issue view --web"
 function grvc { eval "gh repo view --web princeton-cdh/$1" }
 function grvp { eval "gh repo view --web pulibrary/$1" }
 
+# use neovim as editor
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+
 # Make the command line history ignore duplicate command lines.
 export HISTCONTROL=erasedups:ignoredups
 
