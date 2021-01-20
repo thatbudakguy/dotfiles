@@ -1,0 +1,7 @@
+[user]
+	email = thatbudakguy@gmail.com
+	name = Nick Budak
+[core]
+	editor = atom --wait
+[credential]
+	helper = cache --timeout=3600
