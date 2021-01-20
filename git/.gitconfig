@@ -1,0 +1,7 @@
+[user]
+	email = nbudak@princeton.edu
+	name = Nick Budak
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
