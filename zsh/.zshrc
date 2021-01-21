@@ -8,7 +8,7 @@ alias ln='ln -i'         # Prompt before overwriting files via 'ln'.
 
 # replace ls with exa
 alias ls='exa'
-alias ll='exa --long'
+alias ll='exa --long --all'
 
 # replace cat with bat
 alias cat='bat'
