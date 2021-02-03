@@ -6,6 +6,9 @@ set -o noclobber         # Do not overwrite files via '>'.
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 
+# add colors to less
+export LESS=R
+
 # Make the command line history ignore duplicate command lines.
 export HISTCONTROL=erasedups:ignoredups
 
